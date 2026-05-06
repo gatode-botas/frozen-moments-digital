@@ -182,6 +182,8 @@
   .animate-fade-up { animation: var(--animate-fade-up); }
   .animate-glow { animation: var(--animate-glow); }
   .animate-marquee { animation: var(--animate-marquee); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
   .grain::before {
     content: "";
     position: absolute; inset: 0;
